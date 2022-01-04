@@ -25,8 +25,8 @@
     },
     {
         "id": 5,
-        "name": "ball",
-        "price": 0,
-        "updateDate": "Tue Jan 04 2022 01:00:26 GMT+0100 (czas środkowoeuropejski standardowy)"
+        "name": "tea",
+        "price": 10,
+        "updateDate": null
     }
 ]

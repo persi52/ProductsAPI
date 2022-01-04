@@ -9,4 +9,5 @@ $ npm install
 
 $ npm run start
 
-## Endpoints can be checked from swagger available while app running on URL : localhost:5000
+## Testing
+Endpoints can be checked from swagger available while app running on URL : localhost:5000

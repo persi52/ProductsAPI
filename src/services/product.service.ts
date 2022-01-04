@@ -55,9 +55,10 @@ export class ProductService {
         return newProduct;
     }
 
-    updateProduct(body: UpdateProductDto, productId: number) : Product{
+    updateProduct(body: UpdateProductDto) : Product{
         let updatedProduct : Product;
         const date = new Date().toString();
+        const productId = body.id
 
         const updatedProductList = this.products.map(product => {
             console.log(product.id)
@@ -73,7 +74,7 @@ export class ProductService {
             else return product;
         });
         
-        this.products = updatedProduct;
+        this.products = updatedProductList;
 
         fs.writeFileSync(path.resolve(process.cwd(),this.relativePath),
         JSON.stringify(updatedProductList,null,4))

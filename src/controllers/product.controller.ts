@@ -34,11 +34,11 @@ export class ProductController{
     }
 
     @UsePipes(new ValidationPipe({whitelist: true}))
-    @Put("/:productId")
-    updateProduct( @Param("productId") productId : number,@Body() body : UpdateProductDto) : Product
+    @Put()
+    updateProduct(@Body() body : UpdateProductDto) : Product
     {
-        this.checkIfProductExists(productId)
-        return this.productService.updateProduct(body,Number(productId));
+        this.checkIfProductExists(body.id)
+        return this.productService.updateProduct(body);
     }
 
     @Delete("/:productId")
