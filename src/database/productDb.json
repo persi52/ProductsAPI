@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "coffe",
+        "price": 10.5,
+        "updateDate": null
+    },
+    {
+        "id": 2,
+        "name": "eggs",
+        "price": 9.2,
+        "updateDate": null
+    },
+    {
+        "id": 3,
+        "name": "meat",
+        "price": 5.99,
+        "updateDate": "Tue Jan 04 2022 00:23:02 GMT+0100 (czas środkowoeuropejski standardowy)"
+    },
+    {
+        "id": 4,
+        "name": "cheese",
+        "price": 4.9,
+        "updateDate": "Tue Jan 04 2022 00:51:42 GMT+0100 (czas środkowoeuropejski standardowy)"
+    },
+    {
+        "id": 5,
+        "name": "ball",
+        "price": 0,
+        "updateDate": "Tue Jan 04 2022 01:00:26 GMT+0100 (czas środkowoeuropejski standardowy)"
+    }
+]
