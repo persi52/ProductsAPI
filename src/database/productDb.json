@@ -28,5 +28,11 @@
         "name": "tea",
         "price": 10,
         "updateDate": null
+    },
+    {
+        "id": 6,
+        "name": "string",
+        "price": 0,
+        "updateDate": "Tue Jan 04 2022 17:52:34 GMT+0100 (czas środkowoeuropejski standardowy)"
     }
 ]
